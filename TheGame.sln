@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Rendering", "Engine.Rendering\Engine.Rendering.csproj", "{E8544396-8EA1-472E-B6B6-32E07A3B15FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Rendering", "Engine.Rendering\Engine.Rendering.csproj", "{E8544396-8EA1-472E-B6B6-32E07A3B15FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renderer", "Tests\Renderer\Renderer.csproj", "{E73B3773-4E29-42A3-975F-394F3D9ED628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Renderer", "Tests\Renderer\Renderer.csproj", "{E73B3773-4E29-42A3-975F-394F3D9ED628}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D314904F-202C-44F2-98E4-1C212C797005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities", "Engine.Utilities\Engine.Utilities.csproj", "{9CAFE622-CE2B-47F3-AFE1-D618C2C42E42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Utilities", "Engine.Utilities\Engine.Utilities.csproj", "{9CAFE622-CE2B-47F3-AFE1-D618C2C42E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Windowing", "Engine.Windowing\Engine.Windowing.csproj", "{EE943BE7-AD04-416A-84CA-6F6F0ECD4F91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Windowing", "Engine.Windowing\Engine.Windowing.csproj", "{EE943BE7-AD04-416A-84CA-6F6F0ECD4F91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Rendering.D3D11", "Engine.Rendering.DirectX11\Engine.Rendering.D3D11.csproj", "{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Rendering.D3D11", "Engine.Rendering.DirectX11\Engine.Rendering.D3D11.csproj", "{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine.Core\Engine.csproj", "{1546EFE0-097D-441F-A6DB-F4EF9F86F260}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1546EFE0-097D-441F-A6DB-F4EF9F86F260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1546EFE0-097D-441F-A6DB-F4EF9F86F260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1546EFE0-097D-441F-A6DB-F4EF9F86F260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1546EFE0-097D-441F-A6DB-F4EF9F86F260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,9 @@
+<Log>
+	<Enable Value="true"/>
+	<StopOnFatal Value="true"/>
+	<ShowFatal Value="true"/>
+	<Prefix Value=""/>
+	<Folder path="Logs"/>
+	<CleanOld Value="false"/>
+	<OldSize Value="3000"/>
+</Log>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Engine.Rendering.DirectX11\Engine.Rendering.D3D11.csproj" />
+    <ProjectReference Include="..\Engine.Rendering\Engine.Rendering.csproj" />
+    <ProjectReference Include="..\Engine.Utilities\Engine.Utilities.csproj" />
+    <ProjectReference Include="..\Engine.Windowing\Engine.Windowing.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1126,7 +1126,6 @@ namespace Engine.Windowing
         private bool GetWindowBordered() => (SDL_GetWindowFlags(_window) & SDL_WindowFlags.Borderless) == 0;
 
         private void SetWindowBordered(bool value) => SDL_SetWindowBordered(_window, value ? 1u : 0u);
-
         private class SimpleInputSnapshot : InputSnapshot
         {
             public List<KeyEvent> KeyEventsList { get; private set; } = new List<KeyEvent>();

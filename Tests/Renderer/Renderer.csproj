@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Config\Debug.xml" />
+    <None Remove="Config\Messages_en.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Engine.Core\Engine.csproj" />
     <ProjectReference Include="..\..\Engine.Rendering.DirectX11\Engine.Rendering.D3D11.csproj" />
     <ProjectReference Include="..\..\Engine.Rendering\Engine.Rendering.csproj" />
     <ProjectReference Include="..\..\Engine.Utilities\Engine.Utilities.csproj" />
@@ -17,6 +23,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="$(MSBuildThisFileDirectory)..\..\Engine.Windowing\native\osx-x64\libsdl2.dylib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Debug.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Messages_en.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

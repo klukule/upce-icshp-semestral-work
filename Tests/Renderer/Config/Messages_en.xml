@@ -1,0 +1,51 @@
+﻿<!--
+	This is configuration file with all possible messages templates that can be send to User and log file via engine.
+	Feel free to modify messages if You want to.
+	Remember to use simple language and do not write any vulgar words!
+	
+	All messages has the same schematic:
+	m+<id> msg-""<content>"
+	where:
+	<id> - 0-based message index
+	<content> - message content which can have {0},{1},{2},{3}... which will be replaced by message arguments.
+	By default it can be 200 messages in file.
+	
+	Originally created by Lukáš Jech - 2011.
+-->
+<Messages>
+	<m0 msg="{0}"/>
+	<m1 msg="Meteor Engine occurred the error! {0}"/>
+	
+	<m9 msg="Cannot initialize service {0}"/>
+	
+	<m11 msg="File '{0}' does not exists!"/>
+	
+	<m20 msg=""/>
+	<m21 msg=" Start of the log, "/>
+	<m22 msg="Deleting old log files..."/>
+	<m23 msg="File deleted: '{0}'"/>
+	<m25 msg="Error occurred while trying to delete old log files. {0}"/>
+	<m26 msg="Meteor Core is ready!"/>
+	<m27 msg="Initializing services..."/>
+	<m28 msg="Meteor Services are ready!"/>
+	<m29 msg="Using Smooth Frame Rate. Target FPS: {0}"/>
+	
+	<m30 msg="Process Id: {0}, Start Time: {1}"/>
+	<m31 msg="Base directory: {0}"/>
+	<m32 msg="Total RAM: {0} MB"/>
+	<m33 msg="Processors Count: {0}, Machine Name: {1}"/>
+	<m34 msg="{0}, {1}-bit"/>
+	<m35 msg="System Directory: {0}"/>
+	<m36 msg="System Page Size: {0}"/>
+	<m37 msg="User Name: {0}"/>
+	<m38 msg="Core Version: {0}"/>
+	<m39 msg="Meteor Engine occurred the error, during loading {0}! {1}"/>
+	
+	<m52 msg="Final Engine Prepare..."/>
+	<m53 msg="Engine Initializated!"/>
+	<m63 msg="Engine language: {0}"/>
+	
+	<m83 msg="Error during rendering! {0}"/>
+	
+	<m192 msg="Exception: {0}\r\nStack trace:\r\n{1}"/>
+</Messages>

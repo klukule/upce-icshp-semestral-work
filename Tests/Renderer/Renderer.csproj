@@ -3,9 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Engine.Rendering.DirectX11\Engine.Rendering.D3D11.csproj" />
+    <ProjectReference Include="..\..\Engine.Rendering\Engine.Rendering.csproj" />
+    <ProjectReference Include="..\..\Engine.Utilities\Engine.Utilities.csproj" />
     <ProjectReference Include="..\..\Engine.Windowing\Engine.Windowing.csproj" />
   </ItemGroup>
   <ItemGroup>

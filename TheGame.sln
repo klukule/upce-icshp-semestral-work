@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities", "Engine.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Windowing", "Engine.Windowing\Engine.Windowing.csproj", "{EE943BE7-AD04-416A-84CA-6F6F0ECD4F91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Rendering.D3D11", "Engine.Rendering.DirectX11\Engine.Rendering.D3D11.csproj", "{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{EE943BE7-AD04-416A-84CA-6F6F0ECD4F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE943BE7-AD04-416A-84CA-6F6F0ECD4F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE943BE7-AD04-416A-84CA-6F6F0ECD4F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B29D7BE-80F7-4AAD-894A-C905A1F752D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

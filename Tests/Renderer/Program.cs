@@ -2,7 +2,6 @@
 using Engine.Rendering.D3D11;
 using Engine.Windowing;
 using System;
-using System.Runtime.CompilerServices;
 
 namespace Renderer
 {

@@ -1,12 +1,24 @@
-﻿using System;
+﻿using Engine.Windowing;
 
 namespace Renderer
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SDL_WindowFlags flags = SDL_WindowFlags.OpenGL | SDL_WindowFlags.Resizable | SDL_WindowFlags.Shown;
+            Sdl2Window window = new Sdl2Window("Testing window", 300, 300, 1280, 720, flags, false);
+            while (window.Exists)
+            {
+                var events = window.PumpEvents();
+                foreach (var item in events.KeyEvents)
+                {
+                    if (item.Key == Key.Escape)
+                    {
+                        window.Close();
+                    }
+                }
+            }
         }
     }
 }

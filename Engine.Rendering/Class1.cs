@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Engine.Rendering
+﻿namespace Engine.Rendering
 {
     public class Class1
     {

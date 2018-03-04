@@ -43,6 +43,7 @@ namespace Renderer
 
         public override void Update()
         {
+            Console.WriteLine("Update");
         }
     }
 }

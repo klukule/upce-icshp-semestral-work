@@ -1,4 +1,5 @@
-﻿using Engine.Windowing;
+﻿using Engine.Core;
+using Engine.Windowing;
 using System;
 using System.Collections.Generic;
 using System.Numerics;
@@ -54,6 +55,7 @@ namespace Engine.Rendering
             {
                 while (NativeWindow.Exists)
                 {
+                    MyCore.Instance.Input.Update(NativeWindow.PumpEvents());
                     RunCallback();
                 }
             }

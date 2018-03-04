@@ -43,8 +43,6 @@ namespace Renderer
 
         public override void Update()
         {
-            //TODO: Handle better
-            Core.Input.Update(Window.NativeWindow.PumpEvents());
         }
     }
 }
